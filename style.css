@@ -1,0 +1,206 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background_img {
+    background-color: mediumaquamarine;
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.navbar-brand span {
+    color: red;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color:blue;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+button span {
+    color: #fff;
+}
+
+
+/* navbar end */
+
+.container-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 20%;
+    color: #fff;
+}
+
+.container-1 h4 {
+    font-size: 30px;
+}
+
+.container-1 h2 {
+    font-size: 50px;
+}
+
+.container-1 p {
+    font-size: 25px;
+}
+
+.container-1 p a,
+.container-1 ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container-1 ul li a {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.social {
+    float: left;
+    line-height: 1rem;
+}
+
+.container-1 ul {
+    list-style: none;
+    float: left;
+    line-height: 0rem;
+    padding: 0px;
+}
+
+.container-1 ul li {
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.linkedin,
+.git,
+.twitter,
+.envelope {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.linkedin:hover,
+.git:hover,
+.twitter:hover,
+.envelope:hover {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.linkedin:hover,
+.linkedin a:hover {
+    background-color: blue;
+    color: white;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.git:hover,
+.git a:hover {
+    background-color: white;
+    color: black;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.twitter:hover,
+.twitter a:hover {
+    background-color: white;
+    color: blue;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.container-1 p a:hover {
+    color: blue;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .container-1 {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 514px) {
+    .container-1 {
+        padding-left: 10%;
+    }
+    .container-1 h4 {
+        font-size: 25px;
+    }
+    .container-1 h2 {
+        font-size: 35px;
+    }
+    .container-1 p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:514px) {
+    .container-1 {
+        padding-left: 5%;
+    }
+    .container-1 h4 {
+        font-size: 20px;
+    }
+    .container-1 h2 {
+        font-size: 30px;
+    }
+    .container-1 p {
+        font-size: 15px;
+    }
+}
+
+
+/*home page end */
